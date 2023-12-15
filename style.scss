@@ -287,3 +287,29 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+/* Reset some default styles for better consistency */
+body, .custom-title, .custom-paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a clean and modern font for better readability */
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Style the title (h1) with the class 'custom-title' */
+.custom-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333; /* Dark gray text color */
+  margin-bottom: 10px; /* Space between title and paragraph */
+}
+
+/* Style the paragraph with the class 'custom-paragraph' */
+.custom-paragraph {
+  font-size: 1.2em;
+  color: #666; /* Medium gray text color */
+  line-height: 1.5; /* Set the line height for better readability */
+}
