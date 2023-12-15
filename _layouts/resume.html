@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.data.resume.name }} - {{ site.data.resume.title }}</title>
+</head>
+<body>
+
+  <header>
+    <h1>{{ site.data.resume.name }}</h1>
+    <p>{{ site.data.resume.title }}</p>
+  </header>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    {% for job in site.data.resume.experience %}
+      <div>
+        <h3>{{ job.position }}</h3>
+        <p>{{ job.company }}, {{ job.location }}</p>
+        <p>{{ job.description }}</p>
+      </div>
+    {% endfor %}
+  </section>
+
+  <section class="studies">
+    <h2>Education</h2>
+    {% for study in site.data.resume.education %}
+      <div>
+        <h3>{{ study.degree }}</h3>
+        <p>{{ study.school }}, {{ study.location }}</p>
+        <p>Graduated in {{ study.graduation_date }}</p>
+      </div>
+    {% endfor %}
+  </section>
+
+</body>
+</html>
