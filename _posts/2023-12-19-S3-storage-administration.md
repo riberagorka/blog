@@ -14,13 +14,8 @@ tag:
 - Metadata
 - Data Security
 ---
+
 Explore the power of object storage, exemplified by DELL Elastic Cloud Storage (ECS), and its scalability, durability, and metadata-driven advantages for efficiently managing large volumes of unstructured data. Delve into key concepts like namespaces, buckets, and IAM policies to master the art of effective object storage utilization.
-
-# TYPES OF STORAGE
-
-## FILE STORAGE
-## BLOCK STORAGE
-## OBJECT STORAGE
 
 # OBJECT STORAGE
 
