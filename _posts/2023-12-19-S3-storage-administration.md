@@ -1,7 +1,20 @@
 ---
+comments: true
+date: 2023-12-19 15:06
 layout: post
-title: Object Storages
+slug: s3-object-storage
+title: S3 Object Storage
+wordpress_id: 0
+categories:
+- Data Storage
+tag:
+- S3
+- Data Storage
+- Databases
+- Metadata
+- Data Security
 ---
+Explore the power of object storage, exemplified by DELL Elastic Cloud Storage (ECS), and its scalability, durability, and metadata-driven advantages for efficiently managing large volumes of unstructured data. Delve into key concepts like namespaces, buckets, and IAM policies to master the art of effective object storage utilization.
 
 # TYPES OF STORAGE
 
