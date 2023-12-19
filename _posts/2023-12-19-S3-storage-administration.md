@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="/media/gorka/6AAC-AF7E/gorka/personal/articles/styling.css" />
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Object Storages
 ---
+
 # TYPES OF STORAGE
 
 ## FILE STORAGE
