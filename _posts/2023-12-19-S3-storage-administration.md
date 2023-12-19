@@ -50,7 +50,6 @@ A **user** is an entity with associated credentials, which grants the user with 
 #### IAM (Identity & Access Management)
 **IAM** is a framework used to manage access to the resources securely. It is used for the creation and management of the users and their respective policies.
 
-![Namespace basic structure](images/namespace-basic-structure.drawio.png)
 
 ### POLICIES & ACCESS CONTROL
 
@@ -63,7 +62,6 @@ A **policy** is a set of rules that define the permissions given to a certain en
 #### User Policies
 
 General idea of a namespace structure:
-![Namespace structure](images/namespace-structure.drawio.png)
 
 #### ACLs
 
