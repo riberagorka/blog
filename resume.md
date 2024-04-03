@@ -12,7 +12,7 @@ experience:
   - position: Software Developer
     company: XYZ Company
     location: City, Country
-    description: Responsibilities and achievements go here...
+    description: Responsibilities and achievements here...
 
   - position: Frontend Developer
     company: ABC Agency
